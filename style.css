@@ -1,0 +1,17 @@
+.container{
+    padding:1rem;
+}
+
+.container-center{
+    max-width: 600px;
+    margin:auto;
+}
+
+.input-date{
+    
+}
+
+.primary-btn{
+    padding: 1rem;
+
+}
