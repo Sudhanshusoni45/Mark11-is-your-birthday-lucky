@@ -1,17 +1,15 @@
-.container{
-    padding:1rem;
+.container {
+  padding: 1rem;
 }
 
-.container-center{
-    max-width: 600px;
-    margin:auto;
+.container-center {
+  max-width: 600px;
+  margin: auto;
 }
 
-.input-date{
-    
+.input-date {
 }
 
-.primary-btn{
-    padding: 1rem;
-
+.primary-btn {
+  padding: 1rem;
 }
