@@ -9,21 +9,47 @@
     <script src="app.js"></script>
   </head>
   <body>
-    <div class="container container-center">
-      <h1>Is your Birthday lucky?</h1>
-      <label>Enter your Birth Date</label><br />
-      <input type="date" class="input-date" id="input-birthDate" />
-      <br /><br />
-      <label>Enter your lucky Number : </label>
+    <nav class="navigation">
+      <h1>Is your Birthday Lucky</h1>
+    </nav>
+    <div class="medium-padding">
       <div class="container container-center">
-        <input type="number" class="userLuckyNumber" id="input-luckyNumber" />
+        <label>Enter your Birth Date</label><br />
+        <input type="date" class="input-date" id="input-birthDate" />
+        <br /><br />
+        <label>Enter your lucky Number : </label>
+        <div class="container container-center">
+          <input type="number" class="userLuckyNumber" id="input-luckyNumber" />
+        </div>
+        <div class="container">
+          <button
+            class="btn-primary"
+            onclick="clickHandler()"
+            class="primary-btn"
+            id="check-btn"
+          >
+            Check
+          </button>
+        </div>
+        <!-- <textarea id="output-text-area"></textarea> -->
+        <div id="div-output" class="div-output"></div>
       </div>
-      <div class="container">
-        <button onclick="clickHandler()" class="primary-btn" id="check-btn">
-          Check
-        </button>
-      </div>
-      <textarea id="output-text-area"></textarea>
     </div>
   </body>
+  <footer>
+    <div class="footer-header">Socials</div>
+    <ul class="list-non-bullet">
+      <li class="list-inline">
+        <a class="link" href="https://github.com/Sudhanshusoni45"> Github</a>
+      </li>
+      <li class="list-inline">
+        <a class="link" href="https://twitter.com/sudhanshusoni__"> Twitter</a>
+      </li>
+      <li class="list-inline">
+        <a class="link" href="https://www.linkedin.com/in/sudhanshu-soni/">
+          LinkedIn</a
+        >
+      </li>
+    </ul>
+  </footer>
 </html>
